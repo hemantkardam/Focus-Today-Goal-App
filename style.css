@@ -169,10 +169,8 @@ background-color: inherit;
     text-decoration: line-through;
 }
 
-@media (width<500px) {
-    main{
-        margin: 1rem;
-    }
+@media (width<575px) {
+   
     h1{
         font-size: 2rem;
     }
@@ -180,11 +178,16 @@ background-color: inherit;
         font-size: 1.5rem;
     }
 }
-@media (width<350px) {
+@media (width<700px) {
+     main{
+        margin: 1rem;
+    }
+}
+@media (width<360px) {
     .goal-radio{
-        max-width: 18px;
+        max-width: 15px;
         /* padding: 1px; */
-        height: 14px;
+        height: 15px;
     }
     .tick{
         width: 10px;
