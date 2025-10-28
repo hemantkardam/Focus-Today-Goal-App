@@ -186,10 +186,11 @@ background-color: inherit;
 @media (width<360px) {
     .goal-radio{
         max-width: 15px;
-        /* padding: 1px; */
+        padding: 2px;
         height: 15px;
+
     }
     .tick{
-        width: 10px;
+        width: 14px;
     }
 }
