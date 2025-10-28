@@ -22,7 +22,9 @@ progressLabel.innerText = allQuotes[completedGoalsCount];
 
 progressBar.style.width = `${(completedGoalsCount / goal.length) * 100}%`;
 progressBarDigit.innerText = `${completedGoalsCount}/${goal.length} Completed`;
-progressBarDigit.classList.add('hide');
+if (completedGoalsCount < 1) {
+  progressBarDigit.classList.add('hide');
+}
 
 goalRadio.forEach((e) => {
   e.addEventListener('click', (element) => {
